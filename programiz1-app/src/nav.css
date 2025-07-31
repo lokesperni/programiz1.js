@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2d2d2d;
+  padding: 15px 30px;
+  color: white;
+}
+
+.nav-item {
+  margin: 0 15px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #00bfff;
+}
+
+.nav-search {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}

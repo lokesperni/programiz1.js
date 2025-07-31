@@ -1,0 +1,59 @@
+/* home.css */
+
+.home-container {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.home-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.lang-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.lang-button:hover {
+  background-color: #007BFF;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.promo-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.promo-section h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.promo-section h2 {
+  font-size: 1.2rem;
+  color: #555;
+}
