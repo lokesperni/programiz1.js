@@ -14,6 +14,10 @@ function Signup() {
     const time = date.toLocaleTimeString();
 
     async function handleSignup() {
+        if(!name || !email || !number || !password){
+            alert("please fill the details")
+            return
+        }
         const formData = {
             myName: name,
             myEmail: email,
