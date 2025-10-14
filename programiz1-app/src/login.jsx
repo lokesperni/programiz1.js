@@ -8,6 +8,10 @@ function Login() {
     const navigate = useNavigate();
 
     async function handleLogin() {
+        if(!email || !password){
+            alert("please fill the details")
+            return
+        }
         try {
             const result = await fetch("https://686d0b9e14219674dcca359f.mockapi.io/api/data");
             const response = await result.json();
@@ -53,4 +57,4 @@ function Login() {
     );
 }
 
-export default Login;
+export default Login;  
