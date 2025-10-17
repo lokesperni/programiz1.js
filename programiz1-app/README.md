@@ -1,12 +1,39 @@
-# React + Vite
+📘 Programiz Clone App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Programiz-style educational app built with React, including Signup & Login authentication using useState, and seamless navigation handled by react-router-dom with useNavigate. React Icons are used to enhance the UI with clean visuals.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Programiz-style layout
+✅ Signup & Login pages using useState
+✅ Navigation handled by react-router-dom (BrowserRouter, Routes, Route)
+✅ Page redirects using useNavigate
+✅ Icons using react-icons
+✅ Fully responsive components
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Library / Tool	Purpose
+React	Core framework
+useState	Form state handling
+react-router-dom	Routing & rendering pages in App.jsx
+useNavigate	Redirect after authentication
+react-icons	Stylish icons
+CSS /Styling (adjust if needed)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 Folder Structure
+src/
+ ├── pages/
+ │   ├── Home.jsx
+ │   ├── Signup.jsx
+ │   ├── Login.jsx
+ ├── App.jsx
+ ├── App.css
+
+ ⚙️ Installation
+git clone: https://github.com/lokesperni/programiz1.js
+
+cd programiz-app
+
+npm install
+
+npm run dev 
