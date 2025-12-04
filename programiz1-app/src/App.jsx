@@ -20,6 +20,7 @@ function App(){
         <Route path="/nav" element = {<Nav/>}></Route>
         <Route path="/js" element = {<Javascript/>}></Route>
         <Route path="/py" element = {<Python/>}></Route>
+        <Route path=""></Route>
       </Routes>
       </BrowserRouter>
     </div>

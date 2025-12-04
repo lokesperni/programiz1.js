@@ -1,10 +1,10 @@
 import React from "react";
 import "./home.css";
-import Nav from "./nav";
 import { useNavigate } from "react-router-dom";
 import {} from "react-router";
 import {SiPython,SiMysql,SiCplusplus,SiJavascript,SiKotlin,SiNumpy,SiOpenjdk,SiPandas,SiR,SiRuby,SiRust,SiTypescript,SiCss3,SiGo,SiSwift,SiPycharm,SiC,SiHtml5,} from "react-icons/si";
 import { FaCode } from "react-icons/fa";
+import Nav from "./nav";
 
 function Home(){
   const navigate = useNavigate();
@@ -19,7 +19,7 @@ function Home(){
 
   return (
     <div className="home-container">
-      <Nav />
+      <Nav/>
       <h1 className="home-heading">Learn Programming For Free</h1>
 
       <div className="button-grid">
