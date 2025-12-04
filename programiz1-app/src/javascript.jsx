@@ -1,8 +1,5 @@
 import React from "react";
 
-
-
-
 function Javascript(){
     return(
         <div>
@@ -10,4 +7,4 @@ function Javascript(){
         </div>
     )
 }
-export default Javascript
+export default Javascript 
